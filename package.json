@@ -11,6 +11,12 @@
     "url": "https://github.com/ShiftLimits/slui/issues",
     "email": "jeff@jeffschofield.com"
   },
+  "keywords": [
+    "vue",
+    "tailwind",
+    "ui",
+    "library"
+  ],
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
