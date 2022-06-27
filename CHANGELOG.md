@@ -6,4 +6,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Nothing yet.
+### Added
+- Add plugin for Tailwind CSS that ensures all plugins required by the UI library are added to Tailwind
