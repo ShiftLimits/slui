@@ -90,6 +90,9 @@
     "vue-router": "^4.0.0"
   },
   "peerDependenciesMeta": {
+    "@headlessui/vue": {
+      "optional": true
+    },
     "@urql/vue": {
       "optional": true
     },
