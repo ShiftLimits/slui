@@ -10,7 +10,7 @@ export default defineConfig({
       fileName: (format) => `vite.${format}.js`
     },
     rollupOptions: {
-      external: ['tailwindcss-color-suite', 'vite-plugin-svg-icons', 'path'],
+      external: ['tailwindcss-color-suite', 'vite-plugin-svg-icons', 'path', 'fs'],
       output: {
         globals: { 'tailwindcss-color-suite': 'tailwindcssColorSuite' }
       }
