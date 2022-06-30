@@ -144,7 +144,9 @@ const tailwindPlugin = plugin.withOptions(() => {
 		handlers.forEach(handler => handler(api))
 	}
 }, ({ colors = require('../colors.config') }:any = {}) => merge({}, plugins_config, tailwind_config, {
-	colors: tailwindColors(colors)
+	theme: {
+		colors: tailwindColors(colors)
+	}
 }))
 
 export default tailwindPlugin
