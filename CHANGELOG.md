@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+Nothing yet.
+
+## [0.0.2]- 2022-06-29
+
 ### Added
 - Add plugin for Vite that adds SVG icons required by the UI library to your project, and optionally enables the color suite panel
 
