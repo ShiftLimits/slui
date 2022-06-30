@@ -57,7 +57,7 @@ SLUI is designed to be used piecemeal depending on your needs.
 
 SLUI ships with the default Color Suite palette, which itself is generated from the expertly designed [Tailwind CSS color palette](https://tailwindcss.com/docs/customizing-colors). The only difference is that `neutral` from the Tailwind CSS palette has been renamed to `gray-neutral` to avoid conflicting alias names.
 
-Included are semantic aliases which are used by components:
+Included are semantic theme aliases which are used by components:
 
 - `primary` -> `cyan`
 - `secondary` -> `indigo`
@@ -108,7 +108,7 @@ module.exports = {
 
 ## Vue
 ### Components
-- [ ] **SvgIcon** – `Requires Vite plugin`
+- [x] **SvgIcon** – `Requires Vite plugin`
 
 #### Buttons
 - [x] **TextLink**
