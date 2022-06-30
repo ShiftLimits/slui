@@ -6,9 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Updated color map for `TextLink`
+
 ### Added
 - Copy default `colors.config.js` file to project root when enabling the Color Suite editor in Vite plugin
 - Add `SvgIcon` component for displaying icons from `vite-plugin-svg-icons`
+
+### Fixed
+- Fix colors not being configured correctly in Tailwind config
 
 ## [0.0.2]- 2022-06-29
 
