@@ -1,5 +1,13 @@
 ﻿module.exports = {
   colors: {
+    primary: 'cyan',
+    secondary: 'indigo',
+    neutral: 'gray',
+    info: 'sky',
+    success: 'emerald',
+    warning: 'amber',
+    alert: 'red',
+    link: 'sky',
     slate: {
       use_hue_curve: true,
       hue_curve: {
@@ -117,7 +125,7 @@
       end: 900,
       steps: 18
     },
-    neutral: {
+    'gray-neutral': {
       use_hue_curve: true,
       hue_curve: {
         start: 0,
