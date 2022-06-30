@@ -55,7 +55,7 @@ SLUI is designed to be used piecemeal depending on your needs.
 
 ### Color Palette
 
-SLUI ships with the default Color Suite palette, which itself is generated from the expertly designed [Tailwind CSS color palette](https://tailwindcss.com/docs/customizing-colors). The only difference is that `neutral` from the Tailwind CSS palette has been renamed to
+SLUI ships with the default Color Suite palette, which itself is generated from the expertly designed [Tailwind CSS color palette](https://tailwindcss.com/docs/customizing-colors). The only difference is that `neutral` from the Tailwind CSS palette has been renamed to `gray-neutral` to avoid conflicting alias names.
 
 Included are semantic aliases which are used by components:
 
@@ -131,7 +131,6 @@ module.exports = {
 
 ### Theme Config
 - [x] **[Color Suite](https://github.com/ShiftLimits/tailwindcss-color-suite)** – configures the colors object using values from the Color Suite editor
-  - Can be
 
 ### Plugins
 - [x] **[Gridlines](https://github.com/ShiftLimits/tailwindcss-gridlines)** – spacing system overhaul
