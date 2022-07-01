@@ -45,7 +45,7 @@
 			:navigate="slot ? slot.navigate : () => {}"
 			:disabled="disabled"
 		/>
-		<Component v-else :is="is" v-bind="$attrs" @click="slot.navigate" :disabled="disabled" role="button">
+		<Component v-else :is="is" v-bind="$attrs" @click="slot ? slot.navigate : () => {}" :disabled="disabled" role="button">
 			<slot
 				:isExactActive="slot ? slot.isExactActive : null"
 				:isActive="slot ? slot.isActive : null"
