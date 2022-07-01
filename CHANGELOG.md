@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Fix colors not being configured correctly in Tailwind config
+- Fix error when navigating if no slot is passed to AbstractButton
 
 ## [0.0.2]- 2022-06-29
 
