@@ -72,7 +72,7 @@
     "@types/lodash.merge": "^4.6.7",
     "@types/node": "^18.7.18",
     "@urql/vue": "^0.6.3",
-    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue": "^3.1.0",
     "autoprefixer": "^10.4.12",
     "copyfiles": "^2.4.1",
     "esno": "^0.16.3",
