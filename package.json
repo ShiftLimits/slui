@@ -56,11 +56,15 @@
     "commit-msg": "esno scripts/verify-commit.ts"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
     "@tailwindcss/typography": "^0.5.2",
     "lodash.merge": "^4.6.2",
     "tailwindcss-color-suite": "^0.7.0",
     "tailwindcss-gridlines": "^0.2.4",
     "tailwindcss-interaction-media": "^0.1.0",
+    "tailwindcss-leading-trim": "^1.1.0",
+    "tailwindcss-rounded-inherit": "^0.1.0",
     "vite-plugin-svg-icons": "^2.0.1"
   },
   "devDependencies": {
