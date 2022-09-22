@@ -1,2 +1,3 @@
-﻿export * from './buttons'
+export * from './buttons'
+export * from './inputs'
 export * from './media'
