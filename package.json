@@ -68,7 +68,7 @@
     "vite-plugin-svg-icons": "^2.0.1"
   },
   "devDependencies": {
-    "@headlessui/vue": "^1.6.5",
+    "@headlessui/vue": "^1.7.2",
     "@types/lodash.merge": "^4.6.7",
     "@types/node": "^18.0.0",
     "@urql/vue": "^0.6.3",
