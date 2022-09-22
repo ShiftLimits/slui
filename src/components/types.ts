@@ -1,2 +1,0 @@
-export type ComponentColors = 'primary'|'secondary'|'neutral'|'info'|'success'|'warning'|'alert'|'link'|'slate'|'gray'|'gray-neutral'|'zinc'|'stone'|'red'|'orange'|'amber'|'yellow'|'lime'|'green'|'emerald'|'teal'|'cyan'|'sky'|'blue'|'indigo'|'violet'|'purple'|'fuchsia'|'pink'|'rose'
-export type ComponentSize = 'xs'|'sm'|'base'|'lg'
