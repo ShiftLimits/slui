@@ -33,7 +33,7 @@ module.exports = {
 }
 ```
 
-2. Add the SLUI vite plugin to your Vite config:
+2. Add the SLUI Vite plugin to your Vite config:
 
 ```ts
 import { defineConfig } from 'vite'
@@ -107,22 +107,46 @@ module.exports = {
 
 
 ## Vue
+
 ### Components
-- [x] **SvgIcon** – `Requires Vite plugin`
 
 #### Buttons
 - [x] **TextLink**
-- [ ] **FlatButton**
+- [x] **FlatButton**
+- [x] **GhostButton**
 
 #### Inputs
-- [ ] **TextInput**
+- [x] **TextInput**
+- [ ] **PasswordInput**
+- [ ] **TextareaInput**
+- [ ] **SelectInput**
+- [ ] **CheckboxInput**
+- [ ] **ToggleInput**
+- [ ] **RadioInput**
+- [ ] **SliderInput**
 
 #### Forms
 - [ ] **GraphQLForm** – Provides a form API for inputs to link to fields within the form object and handles submission of form data to a GraphQL endpoint `Requires @urql/vue`
-- [ ] **Form Field** – Wraps a set of inputs and uses the form API provided by a wrapping Form component to help automatically build a form object and display validation and error feedback
+- [ ] **FormField** – Wraps a set of inputs and uses the form API provided by a wrapping Form component to help automatically build a form object and display validation and error feedback
+
+#### Media
+- [x] **SvgIcon** – `Requires Vite plugin`
+- [ ] **ResponsiveImage** –
+- [ ] **ResponsiveVideo** –
+- [ ] **Carousel**
+
+#### Lists
+- [ ] **DataTable**
+
+#### Navigation
+- [ ] **BreadCrumbs**
+- [ ] **Pagination**
+
+#### Communication
+- [ ] **ToolTip**
 
 #### Headless
-- [x] AbstractButton
+- [x] **AbstractButton**
 
 ### Plugins
 - [ ] **Modals, Dialogue, and Alerts plugin**
@@ -135,7 +159,11 @@ module.exports = {
 ### Plugins
 - [x] **[Gridlines](https://github.com/ShiftLimits/tailwindcss-gridlines)** – spacing system overhaul
 - [x] **[Typography](https://github.com/tailwindlabs/typography)** – official typography plugin
+- [x] **[Forms](https://github.com/tailwindlabs/tailwindcss-forms)** – official reset for form styles
+- [x] **[Line Clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)** – official utility classes for clamping the number of lines in a paragraph
+- [x] **[Leading Trim](https://github.com/MathGeniusJodie/tailwindcss-leading-trim)** – utility classes for trimming the top and/or bottom of an element so it lines up with the top/bottom of the text it contains
 - [x] **[Interaction Media Variants](https://github.com/ShiftLimits/tailwindcss-interaction-media)** – variants for detecting device's interaction media capabilities
+- [x] **[Rounded Inherit](https://github.com/ShiftLimits/tailwindcss-rounded-inherit)** – utility class for deeply nesting rounding inheritance
 
 ## Vite Plugin
 ### Added Plugins
